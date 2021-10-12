@@ -32,3 +32,5 @@ Now you can deploy some stuff into your cluster.
 
 # Warning
 For the moment its better to use `sudo` and `--kubeconfig` flag with the path to the configuration file `.kube/config`. I will try to improve file and user permission issues in the near future.
+
+Another issue is that please do not exceed to 75% of the total amount of your host machine memory when you provide to your VM. Vagrantfile has the configuration option to tweak the memory resource according to your need.
